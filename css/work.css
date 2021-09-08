@@ -1,0 +1,151 @@
+.nav-wrapper.work-page {
+   background: rgb(224 235 232 / 80%);
+}
+
+.table-reservation { background: #7dcc93; }
+.employify { background: #f76160; }
+.origami { background: #31355b; }
+.journey { background: #f8c687; }
+.invoice-sherpa { background: #21364b; }
+.realtii { background: #E29470; }
+.trizic { background: #66A7D5; }
+.retrolove { background: #FA6D68; }
+.text-king { background: #679895; }
+
+.work-shot {
+   text-align: center;
+}
+.work-shot img {
+   max-width: 60%;
+}
+.work-shot h2 {
+   color: white;
+   margin: 3rem 0 0;
+   font-size: 2.25rem;
+}
+.work-shot h4 {
+   color: white;
+   font-family: 'Cormorant Garamond', serif;
+   font-size: 1.28em;
+   font-weight: 300;
+   line-height: 1.5;
+   margin-bottom: 1.25rem;
+}
+.work-shot p {
+   color: white;
+}
+.shot-info {
+   max-width: 600px;
+   margin: 0 auto;
+}
+.workshot-btn {
+   text-align: center;
+   display: block;
+   position: relative;
+   background: #45b29a;
+   padding: 1rem 1rem;
+   margin: 2.25rem auto 0;
+   border-radius: 3px;
+   -webkit-border-radius: 3px;
+   -moz-border-radius: 3px;
+   border: 0;
+   width: 42%;
+   transition: all .3s;
+   cursor: pointer;
+   color: #fff;
+   text-transform: uppercase;
+   text-decoration: white;
+   font-weight: 300;
+}
+.workshot-btn .fa-dribbble {
+   margin-left: .75rem;
+   font-size: 1.3rem;
+   margin-bottom: -.125rem;
+}
+
+.table-reservation .workshot-btn {
+   background: #2b3d51;
+}
+.table-reservation .workshot-btn:hover {
+   background: #192430;
+}
+.employify .workshot-btn {
+   background: #374760;
+}
+.employify .workshot-btn:hover {
+   background: #242f40;
+}
+.origami .workshot-btn {
+   background: #4299ed;
+}
+.origami .workshot-btn:hover {
+   background: #1680e6;
+}
+.journey .workshot-btn {
+   background: #005361;
+}
+.journey .workshot-btn:hover {
+   background: #00272e;
+}
+.invoice-sherpa .workshot-btn {
+   color: #8c6c07;
+   background: #fae298;
+}
+.invoice-sherpa .workshot-btn:hover {
+   background: #f8d467;
+}
+.realtii .workshot-btn {
+   background: #CE672D;
+}
+.realtii .workshot-btn:hover {
+   background: #a45224;
+}
+.trizic .workshot-btn {
+   color: #3e90ca;
+   background: #A8D7F9;
+}
+.trizic .workshot-btn:hover {
+   background: #78c1f6;
+}
+.retrolove .workshot-btn {
+   color: #c30d06;
+   background: #f9554f;
+}
+.retrolove .workshot-btn:hover {
+   background: #f83d37;
+}
+.text-king .workshot-btn {
+   background: #5d8986;
+}
+.text-king .workshot-btn:hover {
+   background: #527a77;
+}
+
+@media only screen and (max-width: 960px) {
+   .work-shot h2 {
+      color: white;
+      margin: 2rem 0 0;
+      font-size: 2.25rem;
+   }
+}
+
+@media only screen and (max-width: 680px) {
+   .work-shot img {
+      max-width: 80%;
+   }
+   .work-shot h2 {
+      margin: 1.5rem 0 0;
+      font-size: 1.875rem;
+   }
+   .work-shot h4 {
+      margin-bottom: 1rem;
+   }
+   .shot-info {
+      padding: 0 2rem;
+   }
+   .workshot-btn {
+      width: 56%;
+      font-size: .935rem;
+      margin: 1.625rem auto 0;
+   }
+}

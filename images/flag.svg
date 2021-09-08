@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="41" height="153.5" viewBox="0 0 41 153.5">
+  <g id="flag" transform="translate(-28.5 -73.5)">
+    <rect id="flagPoleLeft" width="4" height="144" transform="translate(65 83)" fill="#fff"/>
+    <path id="leftGreenFlag2" d="M28.5,108.83l41-15.33v32Zm0,0" fill="#f4a0a0"/>
+    <path id="leftGreenFlag" d="M28.5,88.83l41-15.33v32Zm0,0" fill="#58d6b9"/>
+  </g>
+</svg>

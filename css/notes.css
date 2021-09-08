@@ -1,0 +1,149 @@
+.page-hero.subpage {
+   position: relative;
+   overflow: hidden;
+}
+.flag {
+   position: absolute;
+   bottom: 0;
+   width: 38px;
+}
+.flag-left {
+   left: 30%;
+}
+.flag-right {
+   right: 30%;
+}
+.note-content p {
+   margin: 2rem 0;
+   font-size: 1.4em;
+}
+.note-content p:last-child {
+   margin-bottom: 0;
+}
+.note-content p.p-intro {
+   font-size: 2rem;
+}
+.subpage-link {
+   color: #45b29a;
+   /* border-bottom: 1px solid #45b29a; */
+}
+.subpage-link:hover {
+   color: #28685a;
+}
+
+.notes-page .content-container {
+   max-width: 730px;
+}
+
+.page-hero.subpage .master-title {
+   margin: 5em auto 4em;
+}
+
+.note-content h2 {
+   color: #28685a;
+   margin-bottom: 0;
+}
+
+.note-content h3 {
+   margin-top: 0;
+   margin-bottom: 2rem;
+}
+
+.notes-title {
+   width: 17%;
+}
+
+.page-hero.subpage .master-title .cloud {
+   width: 130px;
+}
+
+.out-with-the-old {
+   width: 100%;
+   border-radius: 2px;
+}
+
+@media only screen and (max-width: 1200px) {
+   .master-title {
+      width: 75%;
+   }
+   .page-hero.subpage .master-title .cloud {
+      width: 124px;
+   }
+   .flag {
+      width: 34px;
+   }
+   .flag-left {
+      left: 28%;
+   }
+   .flag-right {
+      right: 28%;
+   }
+}
+
+@media only screen and (max-width: 960px) {
+   .notes-page .content-container {
+      padding: 0 4rem;
+   }
+   .page-hero.subpage .master-title {
+      margin: 4em auto 4em;
+   }
+   .notes-title {
+      width: 20%;
+   }
+   .page-hero.subpage .master-title .cloud {
+      width: 110px;
+   }
+   .note-content p.p-intro {
+      font-size: 1.875rem;
+   }
+}
+
+@media only screen and (max-width: 680px) {
+   .notes-page .content-container {
+      padding: 0 2rem;
+   }
+   .page-hero.subpage .master-title {
+      margin: 3em auto 3em;
+   }
+   .master-title {
+      width: 85%;
+   }
+   .notes-title {
+      width: 23%;
+   }
+   .page-hero.subpage .master-title .cloud {
+      width: 70px;
+   }
+   .flag {
+      width: 26px;
+   }
+   .flag-left {
+      left: 23%;
+   }
+   .flag-right {
+      right: 23%;
+   }
+   .note-content p {
+      margin: 1.75rem 0;
+   }
+   .note-content p.p-intro {
+      font-size: 1.75rem;
+   }
+}
+
+@media only screen and (max-width: 480px) {
+   .note-content p.p-intro {
+      font-size: 1.4rem;
+   }
+
+   .note-content p {
+      font-size: 1.15em;
+      line-height: 1.45;
+   }
+   .btn-hldr {
+      width: 60%;
+   }
+   .notes-page footer .content-container {
+      padding: 0;
+   }
+}
