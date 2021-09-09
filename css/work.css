@@ -58,7 +58,7 @@
    font-weight: 300;
 }
 .workshot-btn .fa-dribbble {
-   margin-left: .75rem;
+   margin-right: .75rem;
    font-size: 1.3rem;
    margin-bottom: -.125rem;
 }
@@ -137,18 +137,26 @@
       max-width: 80%;
    }
    .work-shot h2 {
-      margin: 1.5rem 0 0;
-      font-size: 1.875rem;
+      margin: 1.25rem 0 0;
+      font-size: 1.75rem;
    }
    .work-shot h4 {
-      margin-bottom: 1rem;
+      margin-bottom: .5rem;
+      margin-top: .35rem;
+      font-size: 1.15em;
+      font-weight: 400;
    }
    .shot-info {
-      padding: 0 2rem;
+      padding: 0 1.5rem;
    }
    .workshot-btn {
-      width: 56%;
-      font-size: .935rem;
-      margin: 1.625rem auto 0;
+      width: 60%;
+      font-size: .875rem;
+      padding: .875rem;
+      margin: 1.25rem auto 0;
+      font-weight: 400;
+   }
+   .workshot-btn .fa-dribbble {
+      font-size: 1.25rem;
    }
 }

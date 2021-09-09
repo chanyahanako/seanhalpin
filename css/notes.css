@@ -100,7 +100,7 @@
 
 @media only screen and (max-width: 680px) {
    .notes-page .content-container {
-      padding: 0 2rem;
+      padding: 0 1.5rem;
    }
    .page-hero.subpage .master-title {
       margin: 3em auto 3em;
@@ -123,6 +123,9 @@
    .flag-right {
       right: 23%;
    }
+   .note-content h3 {
+      margin-bottom: 1.5rem;
+   }
    .note-content p {
       margin: 1.75rem 0;
    }
@@ -139,9 +142,6 @@
    .note-content p {
       font-size: 1.15em;
       line-height: 1.45;
-   }
-   .btn-hldr {
-      width: 60%;
    }
    .notes-page footer .content-container {
       padding: 0;
