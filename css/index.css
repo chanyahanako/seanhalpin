@@ -88,7 +88,7 @@ hr {
    display: flex;
    justify-content: space-between;
    align-items: center;
-   padding: .625rem 15px;
+   padding: .5rem 15px;
    margin: auto;
    max-width: 970px;
    width: 100%;
@@ -111,8 +111,8 @@ hr {
    color: #21564b;
 }
 .header-logo {
-   width: 62px;
-   height: 62px;
+   width: 56px;
+   height: 56px;
 }
 
 /*---------- section 1 ----------*/
