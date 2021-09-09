@@ -74,7 +74,7 @@ hr {
 
 /*---------- navigation ----------*/
 .nav-wrapper {
-   background: rgb(224 235 232 / 75%);
+   background: rgb(224 235 232 / 60%);
    /* background: rgb(255 255 255 / 70%); */
    backdrop-filter: blur(5px);
    -webkit-backdrop-filter: blur(5px);
@@ -398,6 +398,9 @@ footer {
    }
    footer {
       padding: 2em 0;
+   }
+   .footer-list li {
+      padding: 0 1rem;
    }
    .footer-list li a {
       font-size: 1.125rem;
