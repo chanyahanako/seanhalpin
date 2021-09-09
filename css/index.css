@@ -74,11 +74,11 @@ hr {
 
 /*---------- navigation ----------*/
 .nav-wrapper {
-   background: rgb(224 235 232 / 50%);
+   background: rgb(224 235 232 / 75%);
    /* background: rgb(255 255 255 / 70%); */
    backdrop-filter: blur(5px);
    -webkit-backdrop-filter: blur(5px);
-   border-bottom: 1px solid rgb(204 218 215 / 8%);
+   border-bottom: 1px solid rgb(204 218 215 / 15%);
    /* border-bottom: 1px solid rgb(255 255 255 / 40%); */
    position: sticky;
    top: 0;
@@ -356,7 +356,7 @@ footer {
       width: 82%;
    }
    .master-title .im-sean {
-      width: 54%;
+      width: 58%;
    }
    .header-joptitle {
       padding: 1.25em 0;
