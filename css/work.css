@@ -54,7 +54,7 @@
    cursor: pointer;
    color: #fff;
    text-transform: uppercase;
-   text-decoration: white;
+   text-decoration: none;
    font-weight: 300;
 }
 .workshot-btn .fa-dribbble {
